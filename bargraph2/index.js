@@ -16,7 +16,7 @@ svg
     x: (d, i) => i * (w / dataset.length),
     y: d => h - (h / max) * d,
     width: w / dataset.length - padding,
-    height: (d, i) => (h / max) * max,
+    height: (h / max) * max,
     fill: d => `rgb(${(255 * d) / max}, 0, 0)`,
   });
 
