@@ -1,5 +1,5 @@
-let w = document.documentElement.clientWidth;
-let h = document.documentElement.clientHeight;
+let w = document.documentElement.clientWidth * 0.99;
+let h = document.documentElement.clientHeight * 0.98;
 let padding = 5;
 let dataset = [];
 let svg = d3.select("body").append("svg").attr("width", w).attr("height", h);
